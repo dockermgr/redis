@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 # shellcheck shell=bash
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-##@Version           :  202303210210-git
+##@Version           :  202303231202-git
 # @@Author           :  Jason Hempstead
 # @@Contact          :  jason@casjaysdev.com
 # @@License          :  WTFPL
 # @@ReadME           :  install.sh --help
 # @@Copyright        :  Copyright: (c) 2023 Jason Hempstead, Casjays Developments
-# @@Created          :  Tuesday, Mar 21, 2023 02:10 EDT
+# @@Created          :  Thursday, Mar 23, 2023 12:02 EDT
 # @@File             :  install.sh
 # @@Description      :  Container installer script for redis
 # @@Changelog        :  New script
@@ -19,7 +19,7 @@
 # @@Template         :  installers/dockermgr
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 APPNAME="redis"
-VERSION="202303210210-git"
+VERSION="202303231202-git"
 HOME="${USER_HOME:-$HOME}"
 USER="${SUDO_USER:-$USER}"
 RUN_USER="${SUDO_USER:-$USER}"
@@ -300,7 +300,7 @@ CONTAINER_POSTGRES_ENABLED=""
 CONTAINER_SUPABASE_ENABLED=""
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Database root user [user] [pass/random]
-CONTAINER_DATABASE_USER_ROOT=""
+CONTAINER_DATABASE_USER_ROOT="root"
 CONTAINER_DATABASE_PASS_ROOT="random"
 CONTAINER_DATABASE_LENGTH_ROOT="12"
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
