@@ -1,4 +1,7 @@
-# gitignore created on 03/21/23 at 02:10
+# gitignore created on 03/23/23 at 12:12
+# Disable reminder in prompt
+ignoredirmessage
+
 # Disable reminder in prompt
 ignoredirmessage
 
@@ -91,3 +94,5 @@ $RECYCLE.BIN/
 # ignore .installed files
 **/.installed
 
+# ignore commit message
+.gitcommit
